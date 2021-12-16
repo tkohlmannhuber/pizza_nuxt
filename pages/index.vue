@@ -1,10 +1,11 @@
 <template>
-  <div class="px-5 h-screen grid place-items-center">
-    <label for="search">
+  <div class="px-5 md:px-20 grid gap-20">
+    <HeroSection />
+    <label for="search" class="justify-self-end">
       <input
         id="search"
         v-model="search"
-        class="border-2 border-black px-5 py-2"
+        class="shadow-2xl px-5 py-2 text-xl"
         type="text"
         name="search"
         placeholder="Search for Pizza"
