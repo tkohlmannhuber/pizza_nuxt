@@ -1,7 +1,10 @@
 module.exports = {
     content: [],
     theme: {
-      extend: {},
+        fontFamily: {
+            'text': ['Nunito', 'system-ui'],
+          }
+      
     },
     plugins: [],
   }
