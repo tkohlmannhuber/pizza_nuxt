@@ -1,5 +1,7 @@
 <template>
-  <div class="grid gap-24 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
+  <div
+    class="card-list grid gap-24 mb-20 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4"
+  >
     <PizzaCard v-for="pizza in pizzas" :key="pizza.id" :pizza="pizza" />
   </div>
 </template>
