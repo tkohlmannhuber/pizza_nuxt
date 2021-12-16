@@ -1,6 +1,5 @@
 <template>
-  <a
-    href="#"
+  <div
     class="bg-white px-10 pb-10 grid gap-5 shadow-2xl rounded-xl hover:shadow-2xl"
   >
     <figure
@@ -9,7 +8,7 @@
       <img
         :src="pizza.acf.image.url"
         alt=""
-        class="absolute top-0 left-0 rounded-full h-full w-100 object-cover"
+        class="absolute top-0 left-0 rounded-full h-full w-100 object-cover border-4 border-white"
       />
     </figure>
     <h2 class="text-3xl font-text capitalize font-bold">
@@ -17,7 +16,7 @@
     </h2>
     <p class="font-text font-medium">{{ pizza.acf.ingredients }}</p>
     <p class="font-text font-bold text-2xl">{{ pizza.acf.price }} €</p>
-  </a>
+  </div>
 </template>
 <script>
 export default {
