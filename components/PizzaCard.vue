@@ -6,8 +6,8 @@
       class="relative rounded-full h-36 w-36 transform -translate-y-1/4 shadow-2xl justify-self-center"
     >
       <img
-        :src="pizza.acf.image.url"
-        alt=""
+        :src="pizza.acf.image.sizes.thumbnail"
+        :alt="pizza.acf.image.alt"
         class="absolute top-0 left-0 rounded-full h-full w-100 object-cover border-4 border-white"
       />
     </figure>
