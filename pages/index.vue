@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 md:px-20 grid gap-20 lg:max-w-7xl lg:mx-auto">
+  <div class="px-5 md:px-20 grid gap-20 xxl:max-w-xl lg:mx-auto">
     <HeroSection />
     <label for="search" class="justify-self-end">
       <input
